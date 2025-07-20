@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Guilherme Pereira - CV</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap" rel="stylesheet"/>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background: #121212;
+      color: #f0f0f0;
+      line-height: 1.6;
+      padding: 40px;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: 300px 1fr;
+      gap: 40px;
+    }
+    .left {
+      background-color: #1e1e1e;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .right {
+      padding: 20px;
+    }
+    h1, h2 {
+      color: #64b5f6;
+    }
+    h1 { font-size: 28px; margin-bottom: 10px; }
+    h2 { font-size: 18px; margin-top: 25px; }
+    p, li { font-size: 14px; margin-bottom: 10px; }
+    ul { list-style-type: disc; padding-left: 20px; }
+    .section { margin-bottom: 20px; }
+    .photo {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 10px auto;
+    }
+    .download-btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 16px;
+      background-color: #64b5f6;
+      color: #121212;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .download-btn:hover {
+      background-color: #42a5f5;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <img src="photo.jpg" alt="Guilherme Pereira" class="photo" />
+      <h1>Guilherme Pereira</h1>
+      <div class="section">
+        <h2>Contact</h2>
+        <p>📍 Braga, Portugal</p>
+        <p>📧 guisanttiago@gmail.com</p>
+        <p>📞 +351 933 312 117</p>
+        <p>💻 github.com/90Baljeet</p>
+      </div>
+      <div class="section">
+        <h2>Languages</h2>
+        <p>🇵🇹 Portuguese – Native</p>
+        <p>🇬🇧 English – Intermediate</p>
+        <p>🇫🇷 French – Elementary</p>
+      </div>
+      <div class="section">
+        <h2>Skills</h2>
+        <p><strong>Languages:</strong><br>Java, C, C++, C#, Python, Haskell, MATLAB, MySQL</p>
+        <p><strong>Tools:</strong><br>Git, Linux, Visual Studio Code, IntelliJ, LaTeX, VirtualBox</p>
+        <p><strong>Others:</strong><br>Game development, Interface design, Technical documentation</p>
+      </div>
+      <a href="index.html" class="download-btn" download>Download PDF</a>
+    </div>
+    <div class="right">
+      <div class="section">
+        <h2>Professional Profile</h2>
+        <p>Final-year Bachelor's student in Computer Engineering at the University of Minho. Interested in software development and distributed systems. Hands-on experience in academic projects using various programming languages and paradigms. Values problem-solving, collaboration, and continuous learning.</p>
+      </div>
+      <div class="section">
+        <h2>Education</h2>
+        <p><strong>Bachelor’s in Computer Engineering</strong><br>University of Minho, Braga<br>Currently in the 3rd year</p>
+        <p><strong>High School</strong><br>Colégio do Minho, Viana do Castelo</p>
+      </div>
+      <div class="section">
+        <h2>Academic Projects</h2>
+        <ul>
+          <li>2D Game in Java – Object-Oriented Programming</li>
+          <li>File Converter in C – Data Communication</li>
+          <li>Math Solver in MATLAB – Numerical Methods</li>
+          <li>Distributed Multiplayer Game – Java</li>
+          <li>Game Development in Haskell, C, Java</li>
+          <li>Program Calculation in LaTeX</li>
+          <li>IP Protocol Study – Computer Networks</li>
+        </ul>
+      </div>
+      <div class="section">
+        <h2>Work Experience</h2>
+        <p><strong>Family Restaurant (USA)</strong> – 2 months<br>Customer service, order management, and kitchen support.</p>
+      </div>
+      <div class="section">
+        <h2>Extra-Curricular</h2>
+        <p><strong>Kickboxing Athlete (2022, 2024)</strong><br>University tournaments. Developed discipline, resilience, and competitive mindset.</p>
+        <p><strong>Kickboxing Instructor (2023 – 2025)</strong><br>Instructor for university students and adults. Gained leadership, communication, and teaching experience.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
